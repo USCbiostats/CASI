@@ -7,8 +7,8 @@ Authors@R: person(
   "Joshua", "Millstein", email = "joshua.millstein@usc.edu",
   role = c("aut", "cre"))
 Encoding: UTF-8
-Imports: stats
-biocViews: PMA
+Imports: stats, PMA
+Suggests: fdrci
 Description: Assuming a case-control type study design, two sets of features are measured in both cases and controls.
 	The objective of CASI hypothesis testing is to evaluate evidence of statistical interactions between linear combinations 
 	of features in these sets in relation to outcome status. 
